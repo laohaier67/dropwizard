@@ -52,7 +52,7 @@ def get_version():
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.extlinks', 'sphinx_copybutton']
+extensions = ['sphinx.ext.extlinks', 'sphinx_copybutton', 'sphinx_sitemap']
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path = ['ytemplates']
@@ -142,6 +142,9 @@ html_context = {
     "conf_py_path": "/docs/source/",
 }
 github_url = u'https://github.com/dropwizard/dropwizard'
+
+# The URL which points to the root of the HTML documentation. It is used to indicate the location of document like canonical_url.
+html_baseurl = 'https://www.dropwizard.io/'
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["./_themes"]
