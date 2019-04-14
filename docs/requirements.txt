@@ -2,3 +2,4 @@ lesscpy==0.13.0
 Sphinx==2.0.0
 sphinx-autobuild==0.7.1
 sphinx-rtd-theme==0.4.3
+sphinx-copybutton==0.2.5
